@@ -1,0 +1,26 @@
+body { background-color: #12161c; color: #e1e4e8; font-family: 'Malgun Gothic', sans-serif; margin: 0; padding: 0; }
+.header { background: #1a202c; padding: 15px 20px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #2d3748; }
+.header h1 { color: #fff; font-size: 18px; margin: 0; }
+.top-right { display: flex; gap: 15px; align-items: center; }
+.btn-qna { background: #3182ce; color: #fff; padding: 6px 12px; border-radius: 4px; text-decoration: none; font-size: 13px; }
+
+/* 1번 구성: 상단 주요 메뉴 및 접이식 영역 */
+.menu-container { background: #1e2530; padding: 12px 20px; border-bottom: 1px solid #2d3748; display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+.menu-btn { background: #2b6cb0; color: #fff; border: none; padding: 8px 14px; border-radius: 4px; cursor: pointer; font-size: 13px; }
+.menu-btn:hover { background: #2c5282; }
+.collapsible-content { display: none; background: #242c38; padding: 15px; border-bottom: 1px solid #2d3748; }
+.collapsible-content.active { display: block; }
+
+/* 3번: 수정이 별로 없는 목록 접어두기 토글 */
+.sub-toggle-box { background: #1a202c; border: 1px solid #4a5568; padding: 10px 15px; margin: 15px 20px; border-radius: 4px; cursor: pointer; font-weight: bold; color: #cbd5e0; }
+.sub-content { display: none; margin: 0 20px 15px 20px; background: #1e2530; padding: 15px; border-radius: 4px; }
+.sub-content.active { display: block; }
+
+/* 4번, 5번: 목록 나열 및 페이징/조회수 설정 */
+.content-body { padding: 20px; }
+.table-header-bar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; }
+.list-table { width: 100%; border-collapse: collapse; background: #1e2530; border-radius: 4px; overflow: hidden; }
+.list-table th, .list-table td { padding: 10px 12px; text-align: center; border-bottom: 1px solid #2d3748; font-size: 13px; }
+.list-table th { background: #2d3748; color: #fff; }
+.list-table tr:hover { background: #2a3444; }
+select, input { background: #2d3748; color: #fff; border: 1px solid #4a5568; padding: 5px 10px; border-radius: 4px; }
